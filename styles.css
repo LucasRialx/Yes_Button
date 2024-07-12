@@ -1,0 +1,48 @@
+/* styles.css */
+
+/* Estilos gerais do body */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #000000;
+}
+
+/* Estilos do contêiner da pergunta */
+.question-container {
+  text-align: center;
+  background-color: rgb(221, 19, 19);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(5, 51, 201, 0.1);
+  position: relative;
+}
+
+/* Estilo da pergunta */
+.question {
+  font-size: 18px;
+}
+
+/* Estilo dos botões de resposta */
+.answer {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+/* Estilo específico para o botão "Não" */
+#noButton {
+  position: absolute;
+}
+
+/* Estilo da resposta */
+.response {
+  margin-top: 20px;
+}
